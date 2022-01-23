@@ -1,0 +1,80 @@
+<form id="form1" action="php/add_new_manager.php" method="post">
+
+    <div class="row col col-md-12">
+        <div class="col col-md-12 form-group">
+            <label class="font-weight-bold" for="fname">First Name :</label>
+            <input type="text" class="form-control" placeholder="First Name" id="fname">
+        </div>
+        <div class="col col-md-12 form-group">
+            <label class="font-weight-bold" for="lname">Last Name :</label>
+            <input type="text" class="form-control" placeholder="Last Name" id="lname">
+        </div>
+    </div>
+
+    <!-- customer contact number control -->
+    <div class="row col col-md-12">
+        <div class="col col-md-12 form-group">
+            <label class="font-weight-bold" for="phone">Contact Number :</label>
+            <input type="number" class="form-control" placeholder="Contact Number" id="phone">
+        </div>
+    </div>
+
+    <!-- customer address control -->
+    <div class="row col col-md-12">
+        <div class="col col-md-12 form-group">
+            <label class="font-weight-bold" for="address">Address :</label>
+            <textarea class="form-control" placeholder="Address" id="address"></textarea>
+        </div>
+    </div>
+
+    <!-- customes's doctor name -->
+    <div class="row col col-md-12">
+        <div class="col col-md-12 form-group">
+            <label class="font-weight-bold" for="email">Email :</label>
+            <input type="email" class="form-control" placeholder="Email" id="email">
+        </div>
+    </div>
+
+    <!-- customes's doctor name -->
+    <div class="row col col-md-12">
+        <div class="col col-md-12 form-group">
+            <label class="font-weight-bold" for="staff_id">Staff Id :</label>
+            <input type="text" class="form-control" placeholder="Staff Id" id="staff_id">
+        </div>
+    </div>
+
+    <!-- customes's username -->
+    <div class="row col col-md-12">
+        <div class="col col-md-12 form-group">
+            <label class="font-weight-bold" for="username">Username :</label>
+            <input type="text" class="form-control" placeholder="Username" id="username">
+        </div>
+    </div>
+    <!-- customes's username -->
+    <div class="row col col-md-12">
+        <div class="col col-md-12 form-group">
+            <label class="font-weight-bold" for="password">Password :</label>
+            <input type="text" class="form-control" placeholder="Password" id="password" minlength="8">
+        </div>
+    </div>
+
+    <!-- customer details content end -->
+
+    <!-- horizontal line -->
+    <div class="col col-md-12">
+        <hr class="col-md-12 float-left" style="padding: 0px; width: 95%; border-top: 2px solid  #02b6ff;">
+    </div>
+
+    <!-- form submit button -->
+    <div class="col col-md-12 form-group">
+        &emsp;
+        <div class="col col-md-12 form-group">
+            <button class="btn btn-primary" type="submit" form="form1" value="submit">ADD</button>
+
+        </div>
+    </div>
+    <!-- result message -->
+    <div id="customer_acknowledgement" class="col-md-12 h5 text-success font-weight-bold text-center"
+        style="font-family: sans-serif;"></div>
+
+</form>
